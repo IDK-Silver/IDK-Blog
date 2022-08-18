@@ -5,6 +5,7 @@ body {
 }
 
 div.top_menu {
+    font-family: 'Noto Sans TC', Times, serif;
     width: 100vw;
     position: fixed;
     background-color: rgb(210, 173, 210);
@@ -24,12 +25,11 @@ div.top_menu:hover {
 
 
 div.bottom_menu {
+    font-family: 'Noto Sans TC', Times, serif;
     position: sticky;
     top: 100vh;
     right: 100vw;
-
     background-color: rgb(210, 173, 210);
-
     font-size: 3rem;
     text-align: center;
     padding: 1rem;
@@ -38,7 +38,7 @@ div.bottom_menu {
 
 div.image_show {
     /* background-color: rgb(253, 253, 253); */
-    margin-top: 100px;
+    margin-top: 130px;
     width: 300PX;
     margin-bottom: 0px;
 
@@ -46,8 +46,9 @@ div.image_show {
 
 
 p.image_container {
+    font-family: 'Noto Sans TC', Times, serif;
     font-size: 2rem;
-    color: rgb(220, 90, 196);
+    color: rgb(32, 31, 32);
     font-weight: 900;
     margin: 0;
     text-align: center;
