@@ -1,0 +1,61 @@
+body {
+    background-image: url(./res/background.jpg);
+    background-size: cover;
+    height: 2000px;
+}
+
+div.top_menu {
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(210, 173, 210);
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+div.top_menu:hover {
+    cursor: pointer;
+}
+
+
+div.bottom_menu {
+    position: sticky;
+    top: 100vh;
+    right: 100vw;
+
+    background-color: rgb(210, 173, 210);
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0%;
+}
+
+div.image_show {
+    /* background-color: rgb(253, 253, 253); */
+    margin-top: 100px;
+    width: 300PX;
+    margin-bottom: 0px;
+
+}
+
+
+p.image_container {
+    font-size: 2rem;
+    color: rgb(220, 90, 196);
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+}
+
+img.image_container {
+    display: block;
+    height: 300px;
+    border: 0.5rem solid rgb(216, 127, 187);
+    margin: auto;
+}
